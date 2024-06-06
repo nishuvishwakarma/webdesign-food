@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*page 1*/
+.main{
+    background-image: url("../Images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    
+}
+
+.navbar {
+    padding: 15px;
+}
+.navbar img{
+  width: 50px;
+
+}
+.text{
+    
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.text h1{
+    color: #fff;
+font-family: "Playfair Display", serif;
+font-size: 60px !important;
+font-weight: 700;
+font-style: italic;
+}
+.navbar-nav{
+    margin-left:  600px;
+
+}
+.text{
+    animation-name: nisha;
+    animation-duration: 3s;
+    animation-delay: 1s;
+
+}
+@keyframes nisha{
+    from{
+        transform:scale(0.25);
+    }
+}
+
+/*page 2*/
+
+.page2 h1{
+    font-family: "Playfair Display", serif;
+    font-size: 36px !important;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 32px;
+    text-align: justify;
+}
+.page21 img{
+margin-top: 160px;
+width: 100%;
+
+
+}
+.page2{
+margin-top: 300px;
+
+}
+button{
+background-color:#ffb606;
+padding: 10px 30px;
+border: 1px solid #ffb606;
+}
+button:hover{
+
+background-color: white;
+}
+
+/*page 3*/
+
+.food{
+   background-image: url("../images/food-bg.png");
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 1200px;
+}
+
+
+
+.food-area {
+    background-image: url("../images/food-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+}
+
+
+.section-top {
+    margin-bottom: 80px;
+}
+.section-top .style-change {
+    color: #ffb606;
+    font-style: italic;
+}
+.food-area .food-content {
+    width: 362px;
+    padding: 50px 0px 0pc 0px;
+    background: #f9f9ff;
+}
+.food-area .food-content:hover{
+    color: black;
+    background-color:#ffb606 ;
+
+}
+.food-area .food-content .style-change {
+    color: #ffb606;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.shrink img{
+    transition: 1s ease;
+
+ }
+ .shrink img:hover{
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform:scale(1.1);
+    transition: 1s ease;
+ }
+
+
+
+        
+
+           /*page 4*/
+
+    .main4{
+        margin: 130px 0px;
+        background-image: url("../images/reservation-bg.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 440px;
+        text-align: center;
+        padding-top: 120px;
+     
+        
+        
+    }
+    .main4 h1{
+        text-align: center;
+        padding-top: 10px;
+        color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 42px !important;
+    font-weight: 700;
+    }
+    .main4 h3{
+        color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    }
+
+         .res a{
+            color: #131230;
+            background: #ffb606;
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid #ffb606;
+            padding: 12px 30px;
+     }
+     .res a:hover{
+    
+        background:none;
+        color: #ffb606;
+
+     }
+
+
+     /*page 5*/
+
+     .main67 img {
+        width: 356px;
+     }
+     .main67 img{
+        transition: 1s ease;
+
+     }
+     .main67 img:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform:scale(0.5);
+        transition: 1s ease;
+     }
+
+     /*page 6*/
+
+     .bg{
+        background-image: url("../images/testimonial-bg.jpg");
+        background-repeat: no-repeat;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        background-size: cover;
+        color: white;
+        padding-top: 180px;
+     }
+
+
+     /*page 7*/
+
+     .main9 h1{
+        text-align: center;
+        margin-top: 100px;
+     }
+     .main9 h6{
+        text-align: center;
+     }
+     .main9 img{
+        transition: 1s ease;
+    
+     }
+     .main9 img:hover{
+        -webkit-transform: scale(1.8);
+        -ms-transform: scale(1.8);
+        transform:scale(1.1);
+        transition: 1s ease;
+     }
+     /*page8*/
+
+        
+     
+    
+            .banner{
+                background-image: url("../Images/table-bg.jpg");
+                background-repeat: no-repeat;
+                
+                background-size: 100% 100%;
+
+            }
+            .overlay{
+            background-color:  rgba(0, 0, 0, .5);
+               background-size: 100% 100%;
+                height: 500px;
+                
+             }
+
+             .heading{
+                text-align: center;
+                padding-top: 70px;
+                height: 450px;
+        
+             }
+              button{
+                text-align: center;
+            
+                
+             }
+             /*footer*/
+
+             .footer{
+                height: 500px;
+                width: 100%;
+               padding: 200px 0px 0px 100px;
+                background-color: rgb(12, 4, 63);
+                color: white;
+             }
+            
